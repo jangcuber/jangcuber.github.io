@@ -1,0 +1,29 @@
+Origin: jangcuber
+Label: jangcuber
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: jangcuber jailbreak tweak repository
+Date: Sat, 15 Aug 2026 06:33:24 +0000
+MD5Sum:
+ 66b22a4716a84ea3241edb950eb9956c             2881 Packages
+ 40245eb8d15acdf9e19916931dc9f0ae              752 Packages.gz
+ 0f40efaddb6753a47659e99def31098e              918 Packages.bz2
+ 23ff44fa47e99c65c2811f9d60e2db08              816 Packages.xz
+SHA1:
+ 374a0e1762514ac9f0b8986fce82b01ae7474111             2881 Packages
+ b624413ec2efbf825f3878024868a6a3889d002f              752 Packages.gz
+ e50c2dde1cfa062fd1376208e9ac7567964d37b2              918 Packages.bz2
+ 868a73a981f4e04d181f43cb8993b8e102ce4bf1              816 Packages.xz
+SHA256:
+ 5abf55c90af71efb7f248eef5fcd2950d62c4242e02660a733412163533de62c             2881 Packages
+ 216a35b7a449540a79c906487370a3f43830149aa19f9e40819eebb2d569bfee              752 Packages.gz
+ 2286cb3b588fd0010bd3dafba560e64e33922175c25343c9bdfe459dcdafe75e              918 Packages.bz2
+ a529293e5525b7adc60ceaca83c3a2acb1c1068cf94695b7d42e6b1ed98b888b              816 Packages.xz
+SHA512:
+ f38066f051b6ea34b4c15e1f8cc031f1244917fbbf40f5a7e5fafeb5cc559ca40bfdcfe96b127af53ef83c57965ddf15aa9a1b66e712032e1bc63a8d2cf2ce7d             2881 Packages
+ 9fc184d36cb9050c4f6dc3ae6b88a877cbeb52ed9328beead837734b8e35cca0470bde4df33961038aaa68dae41484e33537ddd0aa9b80e2f6a06c36093fd31e              752 Packages.gz
+ 6bc3d300df3c16553c011c3648bf4b935058ac646a48b176306ee78ddfe7049b67bf58303b2ebad488069141c19e94a2c277e5a244f8b823552da27f531693d3              918 Packages.bz2
+ b672d9422e7284f1f6a246c67d6c52979daaa990269accf71ddb386694139478868c34e1f18fa56a8dcb08b911e91724e2e7ddf2deb2aeba65b49ae45b0b5811              816 Packages.xz

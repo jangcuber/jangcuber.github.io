@@ -1,0 +1,78 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "https://jangcuber.github.io/depictions/panoramapages/assets/header.png",
+  "tintColor": "#248BFF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "One panorama. Every page."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "PanoramaPages turns Home Screen pages into windows onto one continuous image. Choose a wide photo in Settings and it moves smoothly as you swipe.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Highlights"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Select, replace, or remove a dedicated panorama\n- Tune image span and direction without a respring\n- Keeps the effect behind icons and outside the Lock Screen\n- Optional LiquidAss Snapshot compatibility on validated systems\n- Includes arm64 and arm64e slices",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tested",
+          "text": "iOS 14–18"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Rootful",
+          "text": "iOS 14–17"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Rootless",
+          "text": "iOS 15–26"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "RootHide",
+          "text": "iOS 15–17"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**iOS 26 is installable but has not been device-tested.** iOS 18 and later require a selected custom panorama; the private system-wallpaper fallback stays disabled.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source Code and Documentation",
+          "action": "https://github.com/jangcuber/panoramapages",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 0.3.0\n\n- Unified the validated iOS 18 path into the standard rootless package.\n- Allowed rootless installation through iOS 26, with iOS 26 clearly marked untested.\n- Added Settings and Sileo artwork plus native package details.\n- Kept the iOS 18+ system-wallpaper fallback disabled; select a custom panorama instead.",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
