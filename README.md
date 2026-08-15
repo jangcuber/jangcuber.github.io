@@ -17,7 +17,6 @@ CydiaIcon{,@2x,@3x}.png
 sileo-featured.json
 debs/
 depictions/<package>/
-panoramapages/repo/          # compatibility alias for the old lowercase URL
 ```
 
 Place release packages below `debs/`, make sure their control metadata points
@@ -27,8 +26,8 @@ at the public depiction, then run:
 ./scripts/rebuild-repository.sh
 ```
 
-The generator rebuilds the flat APT indexes and the compatibility alias. It
-intentionally omits `Packages.zst` for compatibility with older Sileo builds.
+The generator rebuilds the flat APT indexes. It intentionally omits
+`Packages.zst` for compatibility with older Sileo builds.
 
 ## Packages
 

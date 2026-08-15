@@ -5,11 +5,7 @@ set -Eeuo pipefail
 script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 repo_root="$(cd -- "${script_dir}/.." && pwd -P)"
 debs_dir="${repo_root}/debs"
-compat_parent="${repo_root}/panoramapages"
-compat_dir="${compat_parent}/repo"
 staging_dir=""
-compat_staging=""
-compat_backup=""
 index_files=(Packages Packages.gz Packages.bz2 Packages.xz)
 static_repo_files=(
     CydiaIcon.png
@@ -26,14 +22,6 @@ die() {
 
 cleanup() {
     [[ -z "$staging_dir" || ! -d "$staging_dir" ]] || rm -rf -- "$staging_dir"
-    [[ -z "$compat_staging" || ! -d "$compat_staging" ]] || rm -rf -- "$compat_staging"
-    if [[ -n "$compat_backup" && -d "$compat_backup" ]]; then
-        if [[ ! -e "$compat_dir" ]]; then
-            mv -- "$compat_backup" "$compat_dir" || true
-        else
-            rm -rf -- "$compat_backup"
-        fi
-    fi
 }
 
 for command_name in dpkg-deb dpkg-scanpackages gzip bzip2 xz openssl awk; do
@@ -133,36 +121,9 @@ for index_file in Release "${index_files[@]}"; do
 done
 rm -f -- "${repo_root}/Packages.zst"
 
-mkdir -p "$compat_parent"
-compat_staging="$(mktemp -d "${compat_parent}/.repo-staging.XXXXXX")"
-mkdir -p "${compat_staging}/debs"
-for index_file in Release "${index_files[@]}"; do
-    cp -- "${staging_dir}/${index_file}" "${compat_staging}/${index_file}"
-done
-for static_repo_file in "${static_repo_files[@]}"; do
-    cp -- "${repo_root}/${static_repo_file}" "${compat_staging}/${static_repo_file}"
-done
-cp -R -- "${debs_dir}/." "${compat_staging}/debs/"
-
-if [[ -d "$compat_dir" ]]; then
-    compat_backup="$(mktemp -d "${compat_parent}/.repo-backup.XXXXXX")"
-    rmdir -- "$compat_backup"
-    mv -- "$compat_dir" "$compat_backup"
-fi
-if mv -- "$compat_staging" "$compat_dir"; then
-    compat_staging=""
-    [[ -z "$compat_backup" ]] || rm -rf -- "$compat_backup"
-    compat_backup=""
-else
-    [[ -z "$compat_backup" ]] || mv -- "$compat_backup" "$compat_dir"
-    compat_backup=""
-    die 'could not publish compatibility alias'
-fi
-
 trap - EXIT INT TERM
 rm -rf -- "$staging_dir"
 staging_dir=""
 
 printf 'Repository rebuilt with %s package entries.\n' "$indexed_package_count"
-printf 'Canonical source: https://jangcuber.github.io/\n'
-printf 'Compatibility source: https://jangcuber.github.io/panoramapages/repo/\n'
+printf 'Source: https://jangcuber.github.io/\n'
