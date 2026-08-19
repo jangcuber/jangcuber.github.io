@@ -33,6 +33,9 @@ The generator rebuilds the flat APT indexes. It intentionally omits
 
 - [PanoramaPages](https://github.com/jangcuber/panoramapages) — one continuous
   panorama across Home Screen pages.
+- [mineland](https://github.com/jangcuber/mineland) — an unofficial fork of
+  34306/mineland with an off-by-default Dynamic Island activation toggle for
+  rootless devices.
 
 ## License
 

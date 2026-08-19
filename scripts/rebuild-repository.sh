@@ -51,6 +51,11 @@ trap 'exit 143' TERM
 awk '
     $1 == "Package:" {
         panorama = ($2 == "com.jangcuber.panoramapages")
+        mineland = ($2 == "com.34306.mineland")
+        mineland_homepage = 0
+        mineland_depiction = 0
+        mineland_icon = 0
+        mineland_sileo_depiction = 0
     }
     panorama && $1 == "Homepage:" {
         print "Homepage: https://github.com/jangcuber/panoramapages"
@@ -70,6 +75,39 @@ awk '
     }
     panorama && tolower($1) == "sileodepiction:" {
         print "SileoDepiction: https://jangcuber.github.io/depictions/panoramapages/native.json"
+        next
+    }
+    mineland && $1 == "Homepage:" {
+        print "Homepage: https://github.com/jangcuber/mineland"
+        mineland_homepage = 1
+        next
+    }
+    mineland && $1 == "Depiction:" {
+        print "Depiction: https://jangcuber.github.io/depictions/mineland/"
+        mineland_depiction = 1
+        next
+    }
+    mineland && $1 == "Icon:" {
+        print "Icon: https://jangcuber.github.io/depictions/mineland/assets/icon.png"
+        mineland_icon = 1
+        next
+    }
+    mineland && tolower($1) == "sileodepiction:" {
+        print "SileoDepiction: https://jangcuber.github.io/depictions/mineland/native.json"
+        mineland_sileo_depiction = 1
+        next
+    }
+    mineland && NF == 0 {
+        if (!mineland_homepage)
+            print "Homepage: https://github.com/jangcuber/mineland"
+        if (!mineland_depiction)
+            print "Depiction: https://jangcuber.github.io/depictions/mineland/"
+        if (!mineland_icon)
+            print "Icon: https://jangcuber.github.io/depictions/mineland/assets/icon.png"
+        if (!mineland_sileo_depiction)
+            print "SileoDepiction: https://jangcuber.github.io/depictions/mineland/native.json"
+        print
+        mineland = 0
         next
     }
     { print }

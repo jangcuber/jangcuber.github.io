@@ -1,0 +1,73 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tintColor": "#248BFF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Enable and position Dynamic Island"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "An **unofficial fork** of [34306/mineland](https://github.com/34306/mineland). It adds an off-by-default MobileGestalt activation switch while retaining mineland's positioning, visibility, rotation, and transparency controls.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Credits"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Original project by **34306**. Original positioning code credited by the project to **KhanhDuyTran**. This fork adds the rootless Dynamic Island activation manager and settings integration.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Environment",
+          "text": "Rootless jailbreak"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Firmware",
+          "text": "iOS 16 or later"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "The activation switch uses the MobileGestalt `CacheExtra` capability, which is probably the method changed on iOS 18 and later. A userspace reboot may be required after changing it.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source Code",
+          "action": "https://github.com/jangcuber/mineland",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Original Project",
+          "action": "https://github.com/34306/mineland",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 2.2.2\n\n- Added an off-by-default Dynamic Island activation switch.\n- Added a root daemon that applies and restores the MobileGestalt capability.\n- Added rootless launchctl path detection.\n- Kept the original mineland positioning and appearance controls.",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

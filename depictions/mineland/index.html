@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1678ff">
+  <title>mineland</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+    body { margin: 0; background: #07101f; color: #f7f9ff; }
+    main { width: min(42rem, calc(100% - 2rem)); margin: 2rem auto 3rem; }
+    .title { display: flex; align-items: center; gap: 1rem; }
+    .icon { width: 4.5rem; height: 4.5rem; border-radius: 1rem; }
+    h1, h2 { margin-bottom: .35rem; }
+    p, li { color: #c4cee0; line-height: 1.55; }
+    a { color: #69a8ff; }
+    .notice { padding: 1rem; border: 1px solid #31517c; border-radius: .9rem; background: #10203a; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="title">
+      <img class="icon" src="assets/icon.png" alt="mineland icon">
+      <div><h1>mineland</h1><p>Enable and customize Dynamic Island on notched devices.</p></div>
+    </div>
+    <p class="notice">This is an unofficial fork of <a href="https://github.com/34306/mineland">34306/mineland</a>. The original positioning code is credited to 34306 and KhanhDuyTran.</p>
+    <h2>Added in this fork</h2>
+    <ul>
+      <li>An off-by-default Dynamic Island activation switch.</li>
+      <li>A rootless daemon that safely updates and restores the MobileGestalt capability.</li>
+      <li>Automatic respring after a successful toggle change.</li>
+    </ul>
+    <h2>Compatibility</h2>
+    <p>For rootless jailbreaks on iOS 16 or later. The activation method is probably the one changed on iOS 18 and later. A userspace reboot may be required.</p>
+    <p><a href="https://github.com/jangcuber/mineland">Fork source</a> · <a href="https://github.com/34306/mineland">Original project</a></p>
+  </main>
+</body>
+</html>

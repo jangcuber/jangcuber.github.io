@@ -1,3 +1,24 @@
+Package: com.34306.mineland
+Version: 2.2.2
+Architecture: iphoneos-arm64
+Maintainer: Little 34306
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Conflicts: com.woojin.dynamicislandenabler
+Filename: debs/com.34306.mineland_2.2.2_iphoneos-arm64.deb
+Size: 50226
+MD5sum: f8cbee91cecb0c9b7cbf5579c7f2ae5c
+SHA1: 62dd863bb006f47adba6e214b4b8d8fe64b54a93
+SHA256: 1ceaddf6267f47850e2308ef8d263484c535d46b5d5ee1bba2a828a07919ea75
+Section: Tweaks
+Description: Enable and customize Dynamic Island on notched devices. All the original positioning code is from KhanhDuyTran (@TranKha50277352)
+Author: 34306, DuyKhanhTran
+Name: mineland
+Homepage: https://github.com/jangcuber/mineland
+Depiction: https://jangcuber.github.io/depictions/mineland/
+Icon: https://jangcuber.github.io/depictions/mineland/assets/icon.png
+SileoDepiction: https://jangcuber.github.io/depictions/mineland/native.json
+
 Package: com.jangcuber.panoramapages
 Version: 0.3.0
 Architecture: iphoneos-arm
