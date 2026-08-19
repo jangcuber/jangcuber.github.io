@@ -85,3 +85,23 @@ Icon: https://jangcuber.github.io/depictions/panoramapages/assets/icon.png
 Name: PanoramaPages
 SileoDepiction: https://jangcuber.github.io/depictions/panoramapages/native.json
 
+Package: net.sourceloc.pinanim
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: sourcelocation
+Installed-Size: 372
+Depends: firmware (>= 18.0), mobilesubstrate
+Filename: debs/net.sourceloc.pinanim_3.0.0_iphoneos-arm64.deb
+Size: 26038
+MD5sum: 05ba22b1e9addafa43b62b14091923be
+SHA1: 997094df311f88494f99fbe1b5daf61b322c7f09
+SHA256: 2e37106e9e51fe2912d2abdcda2cc2da86a45867650011eaddebab6ac45d7285
+Section: Tweaks
+Description: Passcode dot animations for iOS 18 and iOS 26
+Author: sourcelocation
+Name: PinAnim
+Homepage: https://github.com/jangcuber/pinanim
+Depiction: https://jangcuber.github.io/depictions/pinanim/
+Icon: https://jangcuber.github.io/depictions/pinanim/assets/icon.png
+SileoDepiction: https://jangcuber.github.io/depictions/pinanim/native.json
+

@@ -31,6 +31,8 @@ The generator rebuilds the flat APT indexes. It intentionally omits
 
 ## Packages
 
+- [PinAnim](https://github.com/jangcuber/pinanim) — passcode-dot animations for
+  rootless jailbreaks on iOS 18 and iOS 26.
 - [PanoramaPages](https://github.com/jangcuber/panoramapages) — one continuous
   panorama across Home Screen pages.
 - [mineland](https://github.com/jangcuber/mineland) — an unofficial fork of

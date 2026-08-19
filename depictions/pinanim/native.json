@@ -1,0 +1,73 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tintColor": "#5ACB78",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Animate every passcode dot"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "PinAnim adds **Bounce, Scale, Hidden, and Stay** animations to the Lock Screen passcode indicators. This fork modernizes the original tweak for iOS 18 and iOS 26.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Highlights"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Adjustable strength and speed\n- Ease In, Ease Out, Ease In/Out, and Linear transitions\n- Unlock wave with haptic feedback\n- Optional deletion animation\n- Runtime passcode-indicator discovery for newer SpringBoard versions",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Environment",
+          "text": "Rootless jailbreak"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Firmware",
+          "text": "iOS 18–26"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Architectures",
+          "text": "arm64 + arm64e"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source Code",
+          "action": "https://github.com/jangcuber/pinanim",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Direct Download",
+          "action": "https://jangcuber.github.io/debs/net.sourceloc.pinanim_3.0.0_iphoneos-arm64.deb",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 3.0.0\n\n- Added iOS 18 and iOS 26 support.\n- Replaced fragile fixed-class and ivar hooks with runtime discovery.\n- Added arm64 and arm64e rootless support.\n- Removed Orion and Comet dependencies.\n- Rebuilt preferences with the standard Preferences framework.",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

@@ -52,10 +52,15 @@ awk '
     $1 == "Package:" {
         panorama = ($2 == "com.jangcuber.panoramapages")
         mineland = ($2 == "com.34306.mineland")
+        pinanim = ($2 == "net.sourceloc.pinanim")
         mineland_homepage = 0
         mineland_depiction = 0
         mineland_icon = 0
         mineland_sileo_depiction = 0
+        pinanim_homepage = 0
+        pinanim_depiction = 0
+        pinanim_icon = 0
+        pinanim_sileo_depiction = 0
     }
     panorama && $1 == "Homepage:" {
         print "Homepage: https://github.com/jangcuber/panoramapages"
@@ -108,6 +113,39 @@ awk '
             print "SileoDepiction: https://jangcuber.github.io/depictions/mineland/native.json"
         print
         mineland = 0
+        next
+    }
+    pinanim && $1 == "Homepage:" {
+        print "Homepage: https://github.com/jangcuber/pinanim"
+        pinanim_homepage = 1
+        next
+    }
+    pinanim && $1 == "Depiction:" {
+        print "Depiction: https://jangcuber.github.io/depictions/pinanim/"
+        pinanim_depiction = 1
+        next
+    }
+    pinanim && $1 == "Icon:" {
+        print "Icon: https://jangcuber.github.io/depictions/pinanim/assets/icon.png"
+        pinanim_icon = 1
+        next
+    }
+    pinanim && tolower($1) == "sileodepiction:" {
+        print "SileoDepiction: https://jangcuber.github.io/depictions/pinanim/native.json"
+        pinanim_sileo_depiction = 1
+        next
+    }
+    pinanim && NF == 0 {
+        if (!pinanim_homepage)
+            print "Homepage: https://github.com/jangcuber/pinanim"
+        if (!pinanim_depiction)
+            print "Depiction: https://jangcuber.github.io/depictions/pinanim/"
+        if (!pinanim_icon)
+            print "Icon: https://jangcuber.github.io/depictions/pinanim/assets/icon.png"
+        if (!pinanim_sileo_depiction)
+            print "SileoDepiction: https://jangcuber.github.io/depictions/pinanim/native.json"
+        print
+        pinanim = 0
         next
     }
     { print }
