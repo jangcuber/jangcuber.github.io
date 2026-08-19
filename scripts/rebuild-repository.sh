@@ -53,6 +53,7 @@ awk '
         panorama = ($2 == "com.jangcuber.panoramapages")
         mineland = ($2 == "com.34306.mineland")
         pinanim = ($2 == "net.sourceloc.pinanim")
+        lsseconds = ($2 == "com.cm90.lsseconds")
         mineland_homepage = 0
         mineland_depiction = 0
         mineland_icon = 0
@@ -61,6 +62,9 @@ awk '
         pinanim_depiction = 0
         pinanim_icon = 0
         pinanim_sileo_depiction = 0
+        lsseconds_homepage = 0
+        lsseconds_depiction = 0
+        lsseconds_sileo_depiction = 0
     }
     panorama && $1 == "Homepage:" {
         print "Homepage: https://github.com/jangcuber/panoramapages"
@@ -146,6 +150,40 @@ awk '
             print "SileoDepiction: https://jangcuber.github.io/depictions/pinanim/native.json"
         print
         pinanim = 0
+        next
+    }
+    lsseconds && $1 == "Description:" {
+        print "Description: Show seconds on the lock-screen clock and status-bar time on supported iOS versions."
+        next
+    }
+    lsseconds && $1 == "Depends:" {
+        print "Depends: mobilesubstrate, preferenceloader"
+        next
+    }
+    lsseconds && $1 == "Homepage:" {
+        print "Homepage: https://github.com/jangcuber/LSSeconds"
+        lsseconds_homepage = 1
+        next
+    }
+    lsseconds && $1 == "Depiction:" {
+        print "Depiction: https://jangcuber.github.io/depictions/lsseconds/"
+        lsseconds_depiction = 1
+        next
+    }
+    lsseconds && tolower($1) == "sileodepiction:" {
+        print "SileoDepiction: https://jangcuber.github.io/depictions/lsseconds/native.json"
+        lsseconds_sileo_depiction = 1
+        next
+    }
+    lsseconds && NF == 0 {
+        if (!lsseconds_homepage)
+            print "Homepage: https://github.com/jangcuber/LSSeconds"
+        if (!lsseconds_depiction)
+            print "Depiction: https://jangcuber.github.io/depictions/lsseconds/"
+        if (!lsseconds_sileo_depiction)
+            print "SileoDepiction: https://jangcuber.github.io/depictions/lsseconds/native.json"
+        print
+        lsseconds = 0
         next
     }
     { print }

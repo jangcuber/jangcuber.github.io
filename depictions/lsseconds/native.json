@@ -1,0 +1,68 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tintColor": "#248BFF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Lock-screen and status-bar seconds"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "LSSeconds adds seconds to the clock while preserving the system lock-screen date and subtitle.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Highlights"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- iOS 17 and legacy status-bar paths\n- Lock-screen clock-only replacement\n- Status-bar AM/PM toggle\n- AOD-aware timer behavior\n- PreferenceLoader settings bundle",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tested",
+          "text": "iOS 17.3.1 + RootHide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "RootHide",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Rootless",
+          "text": "iphoneos-arm64 (runtime unconfirmed)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Seconds are intentionally paused and hidden during AOD. DoubleTapToLock compatibility is not claimed.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source Code and Documentation",
+          "action": "https://github.com/jangcuber/LSSeconds",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 0.0.4\n\n- Added iOS 17 status-bar seconds.\n- Preserved the lock-screen date and prevented duplicate clocks.\n- Added a status-bar AM/PM toggle.\n- Paused seconds during AOD.\n- Added RootHide and rootless package layouts.",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

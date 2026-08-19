@@ -38,6 +38,8 @@ The generator rebuilds the flat APT indexes. It intentionally omits
 - [mineland](https://github.com/jangcuber/mineland) — an unofficial fork of
   34306/mineland with an off-by-default Dynamic Island activation toggle for
   rootless devices.
+- [LSSeconds](https://github.com/jangcuber/LSSeconds) — lock-screen and
+  status-bar seconds for iOS 17.3.1, with RootHide and rootless packages.
 
 ## License
 

@@ -19,6 +19,44 @@ Depiction: https://jangcuber.github.io/depictions/mineland/
 Icon: https://jangcuber.github.io/depictions/mineland/assets/icon.png
 SileoDepiction: https://jangcuber.github.io/depictions/mineland/native.json
 
+Package: com.cm90.lsseconds
+Version: 0.0.4
+Architecture: iphoneos-arm64e
+Maintainer: @CrazyMind90
+Installed-Size: 380
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.cm90.lsseconds_0.0.4_iphoneos-arm64e.deb
+Size: 20888
+MD5sum: 0c7af978ff93d8e493c6d40dbe5d664e
+SHA1: d4e00cb9cd2a8587e4e4da0a71b08504f77bff27
+SHA256: 952513df52ba1bcba8fbe223006331e175247eda68b6eb4c593544bdcf1fb2ea
+Section: Tweaks
+Description: Show seconds on the lock-screen clock and status-bar time on supported iOS versions.
+Author: @CrazyMind90
+Name: LSSeconds
+Homepage: https://github.com/jangcuber/LSSeconds
+Depiction: https://jangcuber.github.io/depictions/lsseconds/
+SileoDepiction: https://jangcuber.github.io/depictions/lsseconds/native.json
+
+Package: com.cm90.lsseconds
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: @CrazyMind90
+Installed-Size: 380
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.cm90.lsseconds_0.0.4_iphoneos-arm64.deb
+Size: 20846
+MD5sum: c955edc10ad65d3c358eb3b3b46fd2f0
+SHA1: 73d5acd59c7d073b1a2b4909df144fcbf94f4983
+SHA256: 439a1a3dec17282c2708961d99cb96dcb8557cfe622a5f03c582272cd41b236d
+Section: Tweaks
+Description: Show seconds on the lock-screen clock and status-bar time on supported iOS versions.
+Author: @CrazyMind90
+Name: LSSeconds
+Homepage: https://github.com/jangcuber/LSSeconds
+Depiction: https://jangcuber.github.io/depictions/lsseconds/
+SileoDepiction: https://jangcuber.github.io/depictions/lsseconds/native.json
+
 Package: com.jangcuber.panoramapages
 Version: 0.3.0
 Architecture: iphoneos-arm

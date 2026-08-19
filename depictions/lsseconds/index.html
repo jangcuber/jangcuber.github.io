@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1678ff">
+  <title>LSSeconds</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+    body { margin: 0; background: #07101f; color: #f7f9ff; }
+    main { width: min(46rem, calc(100% - 2rem)); margin: 1rem auto 3rem; }
+    h1, h2 { margin-bottom: .35rem; }
+    p, li { color: #c4cee0; line-height: 1.55; }
+    a { color: #69a8ff; }
+    .badge { display: inline-block; margin-right: .4rem; padding: .35rem .65rem; border-radius: 999px; background: #1678ff; color: white; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><span class="badge">0.0.4</span><span class="badge">iOS 17</span></p>
+    <h1>LSSeconds</h1>
+    <p>Add seconds to the lock-screen clock and status-bar time without replacing the system date.</p>
+    <h2>Highlights</h2>
+    <ul>
+      <li>Supports iOS 17 status-bar time views and retains the legacy path.</li>
+      <li>Changes only the lock-screen clock; the date and subtitle remain intact.</li>
+      <li>Provides lock-screen, status-bar, and status-bar AM/PM settings.</li>
+      <li>Intentionally pauses and hides seconds during AOD, then resynchronizes on wake.</li>
+    </ul>
+    <h2>Compatibility</h2>
+    <p>Tested on iOS 17.3.1 with RootHide. The rootless package layout and build are verified, but rootless runtime testing is not confirmed.</p>
+    <p><a href="https://github.com/jangcuber/LSSeconds">Source code and documentation</a></p>
+  </main>
+</body>
+</html>
