@@ -58,16 +58,16 @@ Depiction: https://jangcuber.github.io/depictions/lsseconds/
 SileoDepiction: https://jangcuber.github.io/depictions/lsseconds/native.json
 
 Package: com.jangcuber.knockcontrol
-Version: 1.0.1-1+debug
+Version: 1.0.2-1+debug
 Architecture: iphoneos-arm64
 Maintainer: jangcuber
 Installed-Size: 412
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.jangcuber.knockcontrol_1.0.1-1+debug_iphoneos-arm64.deb
-Size: 19214
-MD5sum: 6744fc05fb81ee14d046fd7e546d42eb
-SHA1: 5c7a79891cd0d5fbe920e97f75345a38f23c65cc
-SHA256: 19f8160a53fd94d0184920e9ed3f392cc5ce06755d13d726e7d0f1671730c3e0
+Filename: debs/com.jangcuber.knockcontrol_1.0.2-1+debug_iphoneos-arm64.deb
+Size: 19220
+MD5sum: 01f82caa91fcf0d8f65086028ec43e99
+SHA1: a38b071862765ccb5f05718d6d120bfa385897a2
+SHA256: f76c60d169a52dc4b7582b3b2374216bc8501e8e4fa45ab32c4f59de2319e4d0
 Section: Tweaks
 Description: Double tap to wake/sleep, and swipe to unlock enhancements.
 Author: jangcuber
