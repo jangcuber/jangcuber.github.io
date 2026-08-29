@@ -13,7 +13,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "An **unofficial fork** of [34306/mineland](https://github.com/34306/mineland). It adds an off-by-default MobileGestalt activation switch while retaining mineland's positioning, visibility, rotation, and transparency controls.",
+          "markdown": "An **unofficial fork** of [34306/mineland](https://github.com/34306/mineland). It adds an off-by-default, version-aware MobileGestalt activation switch while retaining mineland's positioning, visibility, rotation, and transparency controls.",
           "useSpacing": true
         },
         {
@@ -41,7 +41,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "The activation switch uses the MobileGestalt `CacheExtra` capability, which is probably the method changed on iOS 18 and later. A userspace reboot may be required after changing it.",
+          "markdown": "On iOS 18 and later, activation uses the MobileGestalt `CacheExtra` capability flag. On iOS 17 and earlier, users can select a 2556-pixel (6.1-inch) or 2796-pixel (6.7-inch) `ArtworkDeviceSubType` layout. Disabling the switch restores the original value. A userspace reboot may be required.",
           "useSpacing": true
         },
         {
@@ -64,7 +64,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 2.2.2\n\n- Added an off-by-default Dynamic Island activation switch.\n- Added a root daemon that applies and restores the MobileGestalt capability.\n- Added rootless launchctl path detection.\n- Kept the original mineland positioning and appearance controls.",
+          "markdown": "### 2.3.3\n\n- Added iOS 17-and-earlier Dynamic Island activation using `ArtworkDeviceSubType`.\n- Added selectable 2556-pixel and 2796-pixel layouts with model guidance.\n- Kept the iOS 18-and-later MobileGestalt capability method.\n- Restores the original MobileGestalt value when activation is disabled.\n\n### 2.2.2\n\n- Added an off-by-default Dynamic Island activation switch.\n- Added a root daemon that applies and restores the MobileGestalt capability.\n- Added rootless launchctl path detection.\n- Kept the original mineland positioning and appearance controls.",
           "useSpacing": true
         }
       ]

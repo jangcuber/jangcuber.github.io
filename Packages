@@ -1,15 +1,15 @@
 Package: com.34306.mineland
-Version: 2.2.2
+Version: 2.3.3
 Architecture: iphoneos-arm64
 Maintainer: Little 34306
-Installed-Size: 556
+Installed-Size: 560
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
 Conflicts: com.woojin.dynamicislandenabler
-Filename: debs/com.34306.mineland_2.2.2_iphoneos-arm64.deb
-Size: 50226
-MD5sum: f8cbee91cecb0c9b7cbf5579c7f2ae5c
-SHA1: 62dd863bb006f47adba6e214b4b8d8fe64b54a93
-SHA256: 1ceaddf6267f47850e2308ef8d263484c535d46b5d5ee1bba2a828a07919ea75
+Filename: debs/com.34306.mineland_2.3.3_iphoneos-arm64.deb
+Size: 51942
+MD5sum: 905141b2bd4acb8f0d90ba7617d37027
+SHA1: be1bd6ef2daa37f2a56553195549e2102987dede
+SHA256: cecc13789859c500c9365e867dfcdfe8e3d84eb1cd1a751c619dd63793f53368
 Section: Tweaks
 Description: Enable and customize Dynamic Island on notched devices. All the original positioning code is from KhanhDuyTran (@TranKha50277352)
 Author: 34306, DuyKhanhTran
