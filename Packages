@@ -139,6 +139,29 @@ Icon: https://jangcuber.github.io/depictions/panoramapages/assets/icon.png
 Name: PanoramaPages
 SileoDepiction: https://jangcuber.github.io/depictions/panoramapages/native.json
 
+Package: dev.eskimo.t9dialer
+Version: 2.3.0
+Architecture: iphoneos-arm64
+Maintainer: jangcuber
+Installed-Size: 1844
+Depends: mobilesubstrate
+Conflicts: com.creaturesurvive.libcscolorpicker, com.jangcuber.t9dialerkeypad
+Replaces: com.creaturesurvive.libcscolorpicker, com.jangcuber.t9dialerkeypad
+Provides: com.creaturesurvive.libcscolorpicker, com.jangcuber.t9dialerkeypad
+Filename: debs/dev.eskimo.t9dialer_2.3.0_iphoneos-arm64.deb
+Size: 256630
+MD5sum: 6f6568dfca82461a76067c9415b9f701
+SHA1: 3f4a839e24306f02078c75b0f09f1bd5228b6209
+SHA256: 90dad9e737a724215eea82dd86f8b3121017695e724256744da0b66a329d4501
+Section: Tweaks
+Description: Korean keypad images and source-restored 초성 T9 search for Phone (iOS 16-18, standalone)
+Author: Jordan Koch, jangcuber
+Name: T9Dialer
+Homepage: https://github.com/jangcuber/T9Dialer
+Depiction: https://jangcuber.github.io/depictions/t9dialer/
+Icon: https://jangcuber.github.io/depictions/t9dialer/assets/icon.png
+SileoDepiction: https://jangcuber.github.io/depictions/t9dialer/native.json
+
 Package: net.sourceloc.pinanim
 Version: 3.0.0
 Architecture: iphoneos-arm64

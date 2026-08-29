@@ -65,6 +65,11 @@ awk '
         lsseconds_homepage = 0
         lsseconds_depiction = 0
         lsseconds_sileo_depiction = 0
+        t9dialer = ($2 == "dev.eskimo.t9dialer")
+        t9dialer_homepage = 0
+        t9dialer_depiction = 0
+        t9dialer_icon = 0
+        t9dialer_sileo_depiction = 0
     }
     panorama && $1 == "Homepage:" {
         print "Homepage: https://github.com/jangcuber/panoramapages"
@@ -184,6 +189,39 @@ awk '
             print "SileoDepiction: https://jangcuber.github.io/depictions/lsseconds/native.json"
         print
         lsseconds = 0
+        next
+    }
+    t9dialer && $1 == "Homepage:" {
+        print "Homepage: https://github.com/jangcuber/T9Dialer"
+        t9dialer_homepage = 1
+        next
+    }
+    t9dialer && $1 == "Depiction:" {
+        print "Depiction: https://jangcuber.github.io/depictions/t9dialer/"
+        t9dialer_depiction = 1
+        next
+    }
+    t9dialer && $1 == "Icon:" {
+        print "Icon: https://jangcuber.github.io/depictions/t9dialer/assets/icon.png"
+        t9dialer_icon = 1
+        next
+    }
+    t9dialer && tolower($1) == "sileodepiction:" {
+        print "SileoDepiction: https://jangcuber.github.io/depictions/t9dialer/native.json"
+        t9dialer_sileo_depiction = 1
+        next
+    }
+    t9dialer && NF == 0 {
+        if (!t9dialer_homepage)
+            print "Homepage: https://github.com/jangcuber/T9Dialer"
+        if (!t9dialer_depiction)
+            print "Depiction: https://jangcuber.github.io/depictions/t9dialer/"
+        if (!t9dialer_icon)
+            print "Icon: https://jangcuber.github.io/depictions/t9dialer/assets/icon.png"
+        if (!t9dialer_sileo_depiction)
+            print "SileoDepiction: https://jangcuber.github.io/depictions/t9dialer/native.json"
+        print
+        t9dialer = 0
         next
     }
     { print }

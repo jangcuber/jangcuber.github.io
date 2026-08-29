@@ -41,6 +41,9 @@ The generator rebuilds the flat APT indexes. It intentionally omits
 - [LSSeconds](https://github.com/jangcuber/LSSeconds) — lock-screen and
   status-bar seconds for iOS 17.3.1, with RootHide and rootless packages.
 - [KnockControl](https://github.com/jangcuber/KnockControl) — Double tap to wake/sleep and swipe-to-unlock enhancements.
+- [T9Dialer](https://github.com/jangcuber/T9Dialer) — Korean initial-consonant
+  contact search, localized keypad images, and speed dial for the Phone app on
+  iOS 16–18.
 
 ## License
 

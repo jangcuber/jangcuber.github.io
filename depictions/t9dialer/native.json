@@ -1,0 +1,62 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "tintColor": "#248BFF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Korean T9 search for the Phone app"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Search contacts by Korean initial consonants directly from the Phone keypad. T9Dialer 2.3.0 rebuilds the original tweak from reverse-engineered behavior, restores broken features, and adds iOS 18 support and configurable speed dial.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Features"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Korean and English T9 search modes\n- Inline swipe or result-sheet UI\n- Optional phone-number search and key haptics\n- Speed dial on keys 2–9\n- Toggleable TelephonyUI-9/10 Korean keypad images\n- Highlight color and family-name-first display options\n- Required color-picker dependency bundled in one package",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tested",
+          "text": "iOS 16–18, Rootless and RootHide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS 26",
+          "text": "Installs, but runtime behavior is untested"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source Code",
+          "action": "https://github.com/jangcuber/T9Dialer",
+          "openExternal": true
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 2.3.0\n\n- Reimplemented the original search and result UI from reverse-engineered behavior.\n- Fixed preference persistence, phone-number search, haptics, and highlight colors.\n- Added iOS 18 search support and speed dial.\n- Integrated Korean keypad images and required dependencies.\n- Added a reversible Korean keypad toggle.",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
