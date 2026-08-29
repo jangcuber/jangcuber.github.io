@@ -17,18 +17,20 @@
 </head>
 <body>
   <main>
-    <p><span class="badge">0.0.4</span><span class="badge">iOS 17</span></p>
+    <p><span class="badge">0.0.5</span><span class="badge">iOS 17–18</span></p>
     <h1>LSSeconds</h1>
     <p>Add seconds to the lock-screen clock and status-bar time without replacing the system date.</p>
     <h2>Highlights</h2>
     <ul>
       <li>Supports iOS 17 status-bar time views and retains the legacy path.</li>
       <li>Changes only the lock-screen clock; the date and subtitle remain intact.</li>
+      <li>Tracks the native clock layout to avoid date and charging overlap.</li>
+      <li>Preserves wallpaper depth effects, with an optional always-visible seconds and AM/PM layer.</li>
       <li>Provides lock-screen, status-bar, and status-bar AM/PM settings.</li>
       <li>Intentionally pauses and hides seconds during AOD, then resynchronizes on wake.</li>
     </ul>
     <h2>Compatibility</h2>
-    <p>Tested on iOS 17.3.1 with RootHide. The rootless package layout and build are verified, but rootless runtime testing is not confirmed.</p>
+    <p>Confirmed working on iOS 17 and iOS 18. RootHide was tested on iOS 17.3.1, and the rootless package is available for supported jailbreaks.</p>
     <p><a href="https://github.com/jangcuber/LSSeconds">Source code and documentation</a></p>
   </main>
 </body>

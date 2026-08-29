@@ -39,16 +39,16 @@ Depiction: https://jangcuber.github.io/depictions/lsseconds/
 SileoDepiction: https://jangcuber.github.io/depictions/lsseconds/native.json
 
 Package: com.cm90.lsseconds
-Version: 0.0.4
+Version: 0.0.5
 Architecture: iphoneos-arm64
 Maintainer: @CrazyMind90
 Installed-Size: 380
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.cm90.lsseconds_0.0.4_iphoneos-arm64.deb
-Size: 20846
-MD5sum: c955edc10ad65d3c358eb3b3b46fd2f0
-SHA1: 73d5acd59c7d073b1a2b4909df144fcbf94f4983
-SHA256: 439a1a3dec17282c2708961d99cb96dcb8557cfe622a5f03c582272cd41b236d
+Filename: debs/com.cm90.lsseconds_0.0.5_iphoneos-arm64.deb
+Size: 23592
+MD5sum: 9877bcea498f3c6895ef116b72508339
+SHA1: 138c4d871a3e4ee8e59ca5412c2da580eb24c198
+SHA256: 25dfd17a3cc8a4b7d3635ebd6dbd0f9845454b6e64f4fcd4f900c1254122ddfc
 Section: Tweaks
 Description: Show seconds on the lock-screen clock and status-bar time on supported iOS versions.
 Author: @CrazyMind90

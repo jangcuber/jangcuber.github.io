@@ -22,7 +22,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- iOS 17 and legacy status-bar paths\n- Lock-screen clock-only replacement\n- Status-bar AM/PM toggle\n- AOD-aware timer behavior\n- PreferenceLoader settings bundle",
+          "markdown": "- iOS 17/18 and legacy status-bar paths\n- Native lock-screen clock positioning\n- Wallpaper depth-effect support\n- Optional always-visible seconds and AM/PM\n- AOD-aware timer behavior\n- PreferenceLoader settings bundle",
           "useSpacing": true
         },
         {
@@ -38,7 +38,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Rootless",
-          "text": "iphoneos-arm64 (runtime unconfirmed)"
+          "text": "iphoneos-arm64"
         },
         {
           "class": "DepictionMarkdownView",
@@ -57,6 +57,11 @@
       "class": "DepictionStackView",
       "tabname": "Changelog",
       "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 0.0.5\n\n- Positioned the custom clock from the native clock layout to avoid date and charging overlap.\n- Preserved wallpaper depth effects for the main clock.\n- Added an off-by-default option to keep seconds and AM/PM above depth effects.\n- Confirmed operation on iOS 17 and iOS 18.",
+          "useSpacing": true
+        },
         {
           "class": "DepictionMarkdownView",
           "markdown": "### 0.0.4\n\n- Added iOS 17 status-bar seconds.\n- Preserved the lock-screen date and prevented duplicate clocks.\n- Added a status-bar AM/PM toggle.\n- Paused seconds during AOD.\n- Added RootHide and rootless package layouts.",
