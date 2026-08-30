@@ -13,7 +13,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "PinAnim adds **Bounce, Scale, Hidden, and Stay** animations to the Lock Screen passcode indicators. This fork modernizes the original tweak for iOS 18 and iOS 26.",
+          "markdown": "PinAnim adds **Bounce, Scale, Hidden, and Stay** animations to the Lock Screen passcode indicators. This fork supports iOS 14 through iOS 26, including direct updates on iOS 16 and iOS 17.",
           "useSpacing": true
         },
         {
@@ -37,7 +37,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Firmware",
-          "text": "iOS 18–26"
+          "text": "iOS 14–26"
         },
         {
           "class": "DepictionTableTextView",
@@ -53,7 +53,7 @@
         {
           "class": "DepictionTableButtonView",
           "title": "Direct Download",
-          "action": "https://jangcuber.github.io/debs/net.sourceloc.pinanim_3.0.0_iphoneos-arm64.deb",
+          "action": "https://jangcuber.github.io/debs/net.sourceloc.pinanim_3.0.1_iphoneos-arm64.deb",
           "openExternal": true
         }
       ]
@@ -64,7 +64,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 3.0.0\n\n- Added iOS 18 and iOS 26 support.\n- Replaced fragile fixed-class and ivar hooks with runtime discovery.\n- Added arm64 and arm64e rootless support.\n- Removed Orion and Comet dependencies.\n- Rebuilt preferences with the standard Preferences framework.",
+          "markdown": "### 3.0.1\n\n- Fixed the update being offered but rejected on iOS 16 and iOS 17.\n- Lowered the package dependency and Mach-O deployment target to iOS 14.\n- Kept iOS 18 and iOS 26 runtime compatibility.\n\n### 3.0.0\n\n- Added iOS 18 and iOS 26 support.\n- Replaced fragile fixed-class and ivar hooks with runtime discovery.\n- Added arm64 and arm64e rootless support.\n- Removed Orion and Comet dependencies.\n- Rebuilt preferences with the standard Preferences framework.",
           "useSpacing": true
         }
       ]

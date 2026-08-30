@@ -163,18 +163,18 @@ Icon: https://jangcuber.github.io/depictions/t9dialer/assets/icon.png
 SileoDepiction: https://jangcuber.github.io/depictions/t9dialer/native.json
 
 Package: net.sourceloc.pinanim
-Version: 3.0.0
+Version: 3.0.1
 Architecture: iphoneos-arm64
 Maintainer: sourcelocation
 Installed-Size: 372
-Depends: firmware (>= 18.0), mobilesubstrate
-Filename: debs/net.sourceloc.pinanim_3.0.0_iphoneos-arm64.deb
-Size: 26038
-MD5sum: 05ba22b1e9addafa43b62b14091923be
-SHA1: 997094df311f88494f99fbe1b5daf61b322c7f09
-SHA256: 2e37106e9e51fe2912d2abdcda2cc2da86a45867650011eaddebab6ac45d7285
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/net.sourceloc.pinanim_3.0.1_iphoneos-arm64.deb
+Size: 25908
+MD5sum: 7a4ef72fe8713cc34d25c8e3070796f1
+SHA1: aa2b1dc5691e522ab4fcfd48566949780590ffee
+SHA256: 83ee892f52f3df6190c7c9b690835f8a64f378479793b0df22f3ca39e34ad79d
 Section: Tweaks
-Description: Passcode dot animations for iOS 18 and iOS 26
+Description: Passcode dot animations for iOS 14 through iOS 26
 Author: sourcelocation
 Name: PinAnim
 Homepage: https://github.com/jangcuber/pinanim
