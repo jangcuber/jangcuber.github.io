@@ -33,7 +33,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Tested",
-          "text": "iOS 14–18"
+          "text": "iOS 14–18, plus iOS 26 core effect"
         },
         {
           "class": "DepictionTableTextView",
@@ -52,7 +52,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**iOS 26 is installable but has not been device-tested.** iOS 18 and later require a selected custom panorama; the private system-wallpaper fallback stays disabled.",
+          "markdown": "**Version 0.3.1 restores the selected panorama and page motion on iOS 26.** The broader iOS 26 integration matrix remains in progress. iOS 18 and later require a selected custom panorama; the private system-wallpaper fallback stays disabled.",
           "useSpacing": true
         },
         {
@@ -69,7 +69,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 0.3.0\n\n- Unified the validated iOS 18 path into the standard rootless package.\n- Allowed rootless installation through iOS 26, with iOS 26 clearly marked untested.\n- Added Settings and Sileo artwork plus native package details.\n- Kept the iOS 18+ system-wallpaper fallback disabled; select a custom panorama instead.",
+          "markdown": "### 0.3.1\n\n- Added an iOS 26 Home-window compatibility path.\n- Moved the iOS 26 panorama layer inside the root Home Screen branch so new composition containers cannot cover it.\n- Added one-time diagnostics for Home-window and layer-host selection.\n- Kept the iOS 18+ system-wallpaper fallback disabled; select a custom panorama instead.\n\n### 0.3.0\n\n- Unified the validated iOS 18 path into the standard rootless package.\n- Added public distribution artwork and metadata.",
           "useSpacing": true
         }
       ]
