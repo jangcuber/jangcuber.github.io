@@ -43,16 +43,16 @@
         {
           "class": "DepictionTableTextView",
           "title": "Rootless",
-          "text": "iOS 15–26"
+          "text": "iOS 15–27"
         },
         {
           "class": "DepictionTableTextView",
           "title": "RootHide",
-          "text": "iOS 15–17"
+          "text": "iOS 15–27"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Version 0.3.5 keeps the panorama fixed during app-switcher zoom on iOS 26. iOS 18 and later require a selected custom panorama. See the GitHub release for iOS 27 Duo lab testing and package compatibility.",
+          "markdown": "Version 0.3.6 allows installation on iOS 27 with a compatible Rootless or RootHide environment. The iOS 27.1 Duo test was performed in vPhone. iOS 18 and later require a selected custom panorama.",
           "useSpacing": true
         },
         {
@@ -64,7 +64,7 @@
         {
           "class": "DepictionTableButtonView",
           "title": "GitHub Release",
-          "action": "https://github.com/jangcuber/PanoramaPages/releases/tag/v0.3.5",
+          "action": "https://github.com/jangcuber/PanoramaPages/releases/tag/v0.3.6",
           "openExternal": true
         }
       ]
@@ -75,7 +75,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 0.3.5\n\n- Keep the panorama viewport fixed during app-switcher zoom on iOS 26 and later.\n- Recover the panorama after iOS 27 Duo display changes or when returning to the Home Screen in vPhone.\n\n### 0.3.1\n\n- Added an iOS 26 Home-window compatibility path.\n- Moved the iOS 26 panorama layer inside the root Home Screen branch so new composition containers cannot cover it.\n- Added one-time diagnostics for Home-window and layer-host selection.\n- Kept the iOS 18+ system-wallpaper fallback disabled; select a custom panorama instead.\n\n### 0.3.0\n\n- Unified the validated iOS 18 path into the standard rootless package.\n- Added public distribution artwork and metadata.",
+          "markdown": "### 0.3.6\n\n- Allow the public Rootless and RootHide packages to install on iOS 27.\n\n### 0.3.5\n\n- Keep the panorama viewport fixed during app-switcher zoom on iOS 26 and later.\n- Recover the panorama after iOS 27 Duo display changes or when returning to the Home Screen in vPhone.\n\n### 0.3.1\n\n- Added an iOS 26 Home-window compatibility path.\n- Moved the iOS 26 panorama layer inside the root Home Screen branch so new composition containers cannot cover it.\n- Added one-time diagnostics for Home-window and layer-host selection.\n- Kept the iOS 18+ system-wallpaper fallback disabled; select a custom panorama instead.\n\n### 0.3.0\n\n- Unified the validated iOS 18 path into the standard rootless package.\n- Added public distribution artwork and metadata.",
           "useSpacing": true
         }
       ]
