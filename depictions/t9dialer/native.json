@@ -44,6 +44,12 @@
           "title": "Source Code",
           "action": "https://github.com/jangcuber/T9Dialer",
           "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub Release",
+          "action": "https://github.com/jangcuber/T9Dialer/releases/tag/v2.3.6",
+          "openExternal": true
         }
       ]
     },
