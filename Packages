@@ -74,38 +74,16 @@ Author: jangcuber
 Name: KnockControl
 
 Package: com.jangcuber.panoramapages
-Version: 0.3.1
-Architecture: iphoneos-arm64
-Maintainer: jangcuber
-Installed-Size: 460
-Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 15.0), firmware (<< 27.0)
-Filename: debs/com.jangcuber.panoramapages_0.3.1_iphoneos-arm64.deb
-Size: 63298
-MD5sum: e0450fc2d594c85c015ccdc7a0356178
-SHA1: 0eb141775f7cf97b4c7783f21e93e7884da4f7ca
-SHA256: 3c2476b81c9dd6f768e5df18f0f89713ebf9a487dd84d5ca8517237a05d878b9
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/jangcuber/panoramapages
-Description: Pan a custom wide image continuously across Home Screen pages.
-Author: jangcuber
-Depiction: https://jangcuber.github.io/depictions/panoramapages/
-Header: https://jangcuber.github.io/depictions/panoramapages/assets/header.png
-Icon: https://jangcuber.github.io/depictions/panoramapages/assets/icon.png
-Name: PanoramaPages
-SileoDepiction: https://jangcuber.github.io/depictions/panoramapages/native.json
-
-Package: com.jangcuber.panoramapages
-Version: 0.3.1
+Version: 0.3.5
 Architecture: iphoneos-arm
 Maintainer: jangcuber
-Installed-Size: 460
+Installed-Size: 464
 Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 14.0), firmware (<< 18.0)
-Filename: debs/com.jangcuber.panoramapages_0.3.1_iphoneos-arm.deb
-Size: 63208
-MD5sum: 93751bf21442f14a98a6cecbefec18b3
-SHA1: d0635baf0d7bdd1b7622ebfe1af8e7fc2aeae872
-SHA256: 0a87335105948eefaf5522fa587be03bbcc02b1d84a51ed18d9f62af96da24d7
+Filename: debs/com.jangcuber.panoramapages_0.3.5_iphoneos-arm.deb
+Size: 65128
+MD5sum: 2b1b154564a6e0e246a14e7327ce9b57
+SHA1: d05ecf053f63b64e165ba810679bc5260a10fce3
+SHA256: d35553be8ffb9841194f0ba3f06cd195c37bc6fe183d07dff9308e6cdc2778ba
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/jangcuber/panoramapages
@@ -118,16 +96,38 @@ Name: PanoramaPages
 SileoDepiction: https://jangcuber.github.io/depictions/panoramapages/native.json
 
 Package: com.jangcuber.panoramapages
-Version: 0.3.1
+Version: 0.3.5
+Architecture: iphoneos-arm64
+Maintainer: jangcuber
+Installed-Size: 464
+Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 15.0), firmware (<< 27.0)
+Filename: debs/com.jangcuber.panoramapages_0.3.5_iphoneos-arm64.deb
+Size: 65214
+MD5sum: 84da9944652beb290a83132ee53020ea
+SHA1: ea6c08c0a1eb0485cd9fec14b4f7828e58dead9b
+SHA256: fff0782f5af492aaf748e954c6e7823cd617499d08f069e7f1e1b100d79653df
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/jangcuber/panoramapages
+Description: Pan a custom wide image continuously across Home Screen pages.
+Author: jangcuber
+Depiction: https://jangcuber.github.io/depictions/panoramapages/
+Header: https://jangcuber.github.io/depictions/panoramapages/assets/header.png
+Icon: https://jangcuber.github.io/depictions/panoramapages/assets/icon.png
+Name: PanoramaPages
+SileoDepiction: https://jangcuber.github.io/depictions/panoramapages/native.json
+
+Package: com.jangcuber.panoramapages
+Version: 0.3.5
 Architecture: iphoneos-arm64e
 Maintainer: jangcuber
-Installed-Size: 460
+Installed-Size: 464
 Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 15.0), firmware (<< 18.0)
-Filename: debs/com.jangcuber.panoramapages_0.3.1_iphoneos-arm64e.deb
-Size: 63342
-MD5sum: 55def5c2e261d2ded075d25a2da52de4
-SHA1: 4d1bd332a1a75b843d5ca04f3232210480cb0efe
-SHA256: bc6938faf7bd734acee66e5cb02ad7e8a7a4c5cb3c9a50bd522988447a7244c3
+Filename: debs/com.jangcuber.panoramapages_0.3.5_iphoneos-arm64e.deb
+Size: 65344
+MD5sum: b65c4a599d7b0d961aaf3479a57889ea
+SHA1: 110b9b1d96d3d78be05cc5e1400e6de6ae5d5db0
+SHA256: 92c5dca988f59c021583675eb41f5a398f741d1abbb544a45e66ef77912a3452
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/jangcuber/panoramapages

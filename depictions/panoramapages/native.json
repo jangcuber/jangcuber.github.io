@@ -52,13 +52,19 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Version 0.3.1 restores the selected panorama and page motion on iOS 26.** The broader iOS 26 integration matrix remains in progress. iOS 18 and later require a selected custom panorama; the private system-wallpaper fallback stays disabled.",
+          "markdown": "Version 0.3.5 keeps the panorama fixed during app-switcher zoom on iOS 26. iOS 18 and later require a selected custom panorama. See the GitHub release for iOS 27 Duo lab testing and package compatibility.",
           "useSpacing": true
         },
         {
           "class": "DepictionTableButtonView",
           "title": "Source Code and Documentation",
           "action": "https://github.com/jangcuber/panoramapages",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub Release",
+          "action": "https://github.com/jangcuber/PanoramaPages/releases/tag/v0.3.5",
           "openExternal": true
         }
       ]
@@ -69,7 +75,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 0.3.1\n\n- Added an iOS 26 Home-window compatibility path.\n- Moved the iOS 26 panorama layer inside the root Home Screen branch so new composition containers cannot cover it.\n- Added one-time diagnostics for Home-window and layer-host selection.\n- Kept the iOS 18+ system-wallpaper fallback disabled; select a custom panorama instead.\n\n### 0.3.0\n\n- Unified the validated iOS 18 path into the standard rootless package.\n- Added public distribution artwork and metadata.",
+          "markdown": "### 0.3.5\n\n- Keep the panorama viewport fixed during app-switcher zoom on iOS 26 and later.\n- Recover the panorama after iOS 27 Duo display changes or when returning to the Home Screen in vPhone.\n\n### 0.3.1\n\n- Added an iOS 26 Home-window compatibility path.\n- Moved the iOS 26 panorama layer inside the root Home Screen branch so new composition containers cannot cover it.\n- Added one-time diagnostics for Home-window and layer-host selection.\n- Kept the iOS 18+ system-wallpaper fallback disabled; select a custom panorama instead.\n\n### 0.3.0\n\n- Unified the validated iOS 18 path into the standard rootless package.\n- Added public distribution artwork and metadata.",
           "useSpacing": true
         }
       ]
