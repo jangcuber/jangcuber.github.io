@@ -140,21 +140,21 @@ Name: PanoramaPages
 SileoDepiction: https://jangcuber.github.io/depictions/panoramapages/native.json
 
 Package: dev.eskimo.t9dialer
-Version: 2.3.0
+Version: 2.3.6
 Architecture: iphoneos-arm64
 Maintainer: jangcuber
-Installed-Size: 1844
+Installed-Size: 1860
 Depends: mobilesubstrate
 Conflicts: com.creaturesurvive.libcscolorpicker, com.jangcuber.t9dialerkeypad
 Replaces: com.creaturesurvive.libcscolorpicker, com.jangcuber.t9dialerkeypad
 Provides: com.creaturesurvive.libcscolorpicker, com.jangcuber.t9dialerkeypad
-Filename: debs/dev.eskimo.t9dialer_2.3.0_iphoneos-arm64.deb
-Size: 256630
-MD5sum: 6f6568dfca82461a76067c9415b9f701
-SHA1: 3f4a839e24306f02078c75b0f09f1bd5228b6209
-SHA256: 90dad9e737a724215eea82dd86f8b3121017695e724256744da0b66a329d4501
+Filename: debs/dev.eskimo.t9dialer_2.3.6_iphoneos-arm64.deb
+Size: 260158
+MD5sum: 9379619f8815cc86a74e9fb33a1cc6f0
+SHA1: ffc2ee43985f2adad37f12c6d9867a572dd28c34
+SHA256: 8231dbffd75fee5bffdab0b6b90aec7457b0105adf4be48dbbc536e43913ac56
 Section: Tweaks
-Description: Korean keypad images and source-restored 초성 T9 search for Phone (iOS 16-18, standalone)
+Description: Korean initial-consonant contact search, Korean keypad labels, and speed dial for the Phone app.
 Author: Jordan Koch, jangcuber
 Name: T9Dialer
 Homepage: https://github.com/jangcuber/T9Dialer

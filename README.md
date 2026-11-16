@@ -43,8 +43,8 @@ The generator rebuilds the flat APT indexes. It intentionally omits
   wallpaper depth-effect support.
 - [KnockControl](https://github.com/jangcuber/KnockControl) — Double tap to wake/sleep and swipe-to-unlock enhancements.
 - [T9Dialer](https://github.com/jangcuber/T9Dialer) — Korean initial-consonant
-  contact search, localized keypad images, and speed dial for the Phone app on
-  iOS 16–18.
+  contact search, Korean keypad labels, and speed dial for the Phone app.
+  Tested on iOS 16–18 and on iOS 26.6.2 and 27.1 in vPhone RootHide.
 
 ## License
 

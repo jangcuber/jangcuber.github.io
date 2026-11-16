@@ -23,18 +23,24 @@
       <img class="icon" src="assets/icon.png" alt="T9Dialer icon">
       <div><h1>T9Dialer</h1><p>Korean initial-consonant T9 search for the Phone app.</p></div>
     </div>
-    <p class="notice">Tested on iOS 16–18 in Rootless and RootHide environments. The package installs on iOS 26, but runtime behavior has not been tested.</p>
+    <p class="notice">Tested on iOS 16–18 in Rootless and RootHide environments. Korean initial-consonant search was verified on iOS 26.6.2 and 27.1 in vPhone RootHide.</p>
     <h2>Features</h2>
     <ul>
       <li>Korean and English contact search with optional phone-number matching.</li>
-      <li>Inline swipe and result-sheet interfaces.</li>
+      <li>Inline swipe by default, with an optional result sheet.</li>
       <li>Speed dial on keys 2–9, key haptics, and configurable highlight color.</li>
-      <li>Toggleable Korean TelephonyUI-9/10 keypad images with original-image restoration.</li>
+      <li>Toggleable Korean keypad labels on iOS 26–27 and reversible keypad images on earlier versions.</li>
       <li>Required color-picker dependency bundled into one package.</li>
+    </ul>
+    <h2>What’s new in 2.3.6</h2>
+    <ul>
+      <li>Fixed a keypad crash on iOS 27.1 and moved search results to the left pane in the unfolded Duo layout.</li>
+      <li>Added Korean initials below the Latin letters on iOS 26–27.</li>
+      <li>Uses T9Dialer’s own search for the result sheet when the Phone app’s search API is incompatible.</li>
     </ul>
     <h2>Credits</h2>
     <p>Original T9Dialer by Jordan Koch. Reverse engineering, feature restoration, iOS 18 support, speed dial, Korean keypad integration, and dependency integration by jangcuber.</p>
-    <p><a href="https://github.com/jangcuber/T9Dialer">Source code</a> · <a href="https://github.com/jangcuber/T9Dialer/releases/tag/v2.3.0">Release notes</a></p>
+    <p><a href="https://github.com/jangcuber/T9Dialer">Source code</a></p>
   </main>
 </body>
 </html>

@@ -13,7 +13,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Search contacts by Korean initial consonants directly from the Phone keypad. T9Dialer 2.3.0 rebuilds the original tweak from reverse-engineered behavior, restores broken features, and adds iOS 18 support and configurable speed dial.",
+          "markdown": "Search contacts by Korean initial consonants directly from the Phone keypad.",
           "useSpacing": true
         },
         {
@@ -22,7 +22,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Korean and English T9 search modes\n- Inline swipe or result-sheet UI\n- Optional phone-number search and key haptics\n- Speed dial on keys 2–9\n- Toggleable TelephonyUI-9/10 Korean keypad images\n- Highlight color and family-name-first display options\n- Required color-picker dependency bundled in one package",
+          "markdown": "- Korean and English T9 search modes\n- Inline swipe by default, with an optional result sheet\n- Optional phone-number search and key haptics\n- Speed dial on keys 2–9\n- Toggleable Korean keypad labels on iOS 26–27 and reversible keypad images on earlier versions\n- Highlight color and family-name-first display options\n- Required color-picker dependency bundled in one package",
           "useSpacing": true
         },
         {
@@ -36,8 +36,8 @@
         },
         {
           "class": "DepictionTableTextView",
-          "title": "iOS 26",
-          "text": "Installs, but runtime behavior is untested"
+          "title": "vPhone RootHide",
+          "text": "Korean initial-consonant search verified on iOS 26.6.2 and 27.1"
         },
         {
           "class": "DepictionTableButtonView",
@@ -53,7 +53,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 2.3.0\n\n- Reimplemented the original search and result UI from reverse-engineered behavior.\n- Fixed preference persistence, phone-number search, haptics, and highlight colors.\n- Added iOS 18 search support and speed dial.\n- Integrated Korean keypad images and required dependencies.\n- Added a reversible Korean keypad toggle.",
+          "markdown": "### 2.3.6\n\n- Fixed a keypad crash on iOS 27.1 and moved search results to the left pane in the unfolded Duo layout.\n- Added Korean initials below the Latin letters on iOS 26–27.\n- Made inline swipe the default. The result sheet uses T9Dialer’s own search when the Phone app’s search API is incompatible.\n\n### 2.3.0\n\n- Reimplemented the original search and result UI from reverse-engineered behavior.\n- Fixed preference persistence, phone-number search, haptics, and highlight colors.\n- Added iOS 18 search support and speed dial.\n- Integrated Korean keypad images and required dependencies.\n- Added a reversible Korean keypad toggle.",
           "useSpacing": true
         }
       ]

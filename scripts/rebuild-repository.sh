@@ -191,6 +191,10 @@ awk '
         lsseconds = 0
         next
     }
+    t9dialer && $1 == "Description:" {
+        print "Description: Korean initial-consonant contact search, Korean keypad labels, and speed dial for the Phone app."
+        next
+    }
     t9dialer && $1 == "Homepage:" {
         print "Homepage: https://github.com/jangcuber/T9Dialer"
         t9dialer_homepage = 1
