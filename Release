@@ -6,24 +6,24 @@ Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e iphoneos-arm
 Components: main
 Description: jangcuber jailbreak tweak repository
-Date: Mon, 16 Nov 2026 06:36:25 +0000
+Date: Mon, 23 Nov 2026 08:00:22 +0000
 MD5Sum:
- 7fbb986bb38839ffd584fb3613db5ca9             7622 Packages
- 3a11c221d86ce2740285b94d1efafa88             2122 Packages.gz
- 310e9c527f186d595135600888ec1864             2320 Packages.bz2
- c82ae6b4bca4d3f43e22900311c99d99             2096 Packages.xz
+ a6e93635e7c47fed17a9f8e3522ded50             7622 Packages
+ d8082be69818bfb446ae876d5264d968             2122 Packages.gz
+ 2ae99fcac6eac6c938d4318c129992fa             2312 Packages.bz2
+ b20f391e55f446ffcb5bf17da01c6612             2092 Packages.xz
 SHA1:
- 5f09a4412e2566fceeefea88d1408f71777e77d0             7622 Packages
- 195df27aceaae576841783ce2881af60b44ab28e             2122 Packages.gz
- c8ea384a023706cc3b0a981e916ffe92139812e2             2320 Packages.bz2
- ceb5bf42e04e44fe87f67cdb0b42ebe0fada1214             2096 Packages.xz
+ 16a11fee2c79f4178a20e6e4365376e4992317e3             7622 Packages
+ d354d0379f376d0f2fe5ad63e2abcc2fe3731598             2122 Packages.gz
+ ac62dedbb16fd19bed4d68eedaae496fa7eac678             2312 Packages.bz2
+ 1644d19e8102503e1cff6f523e3eb37b956f32fe             2092 Packages.xz
 SHA256:
- 2c6fbf3c9ca6b3288d7b99806196dd113ec7b988c9cffe6dc588daa75bc3a9a3             7622 Packages
- 601f45b3e3cbbc387b2f98a91e1b862e6415a16d177c4ebf32883b55200c22a1             2122 Packages.gz
- 722394a2592d6e8131ee6e57031808ce94e0d127a1baa206cba07235327bfc1b             2320 Packages.bz2
- 5ba4f30a8b9625c8f35fe4b3308f9f33385eb7c37de8baf202bf832280200bd5             2096 Packages.xz
+ 6c2765a2f557ee990511b3db3571a189331cfe43932a16820c622fe5a96e9b32             7622 Packages
+ 636eb5ad2e5f7b88570ce8d13c1531bb1d2f0c906d7eecb33c5f8d1d74e22a51             2122 Packages.gz
+ d9da73fbe2265abe5f5fbb3882b166c6c6d3f885845bbb99d1d34d3209ea5447             2312 Packages.bz2
+ b5ce4d333a5f9709c9a1eb11eb74a69087a3dc8a55c8403c39b7e33c73734338             2092 Packages.xz
 SHA512:
- 5d8340c2795191808359337ac3d289178e6e8219549cd8c03fa655e43f5f8c184d08e8edb055af6d3e9a1c6f3f606dc8948b2d908b8e858ff0fe54832c9dc244             7622 Packages
- c9c7582c20e26ff3fc71a92cfb220b99aeb55755fd05729974597c0182061efb967c17c163c16860a6e877605654b4bfaf05270cd91a3dba900df964703c13a1             2122 Packages.gz
- 856f68a7482bd495e73c18bca76cc4c6c2b14c50d42671f4b315d66cb0472948841368997bf27c8b59b205917823d8f0252a30cbf13409334d76f2a7fbb78246             2320 Packages.bz2
- 702c5750149912733d94236edfab0de9cc570407b9c45486624543c6e8f3d5149e1d9081b98b8e6cf095f5d76d477ec34f0d3d7967e52c2d67482e69e66306a0             2096 Packages.xz
+ 2b0b1ecfdbb25237bc620090e90a6627eda08e9da8a7eefb1f08f9c49ceea1610be38aaa883b7cb35f1d68fa6ea38ae33f0e17d5e374702c4fdacc2438b8bb4e             7622 Packages
+ 0209da9bf7bbabdac22a3819265a00c9fbf32303c7e51bb564ffbb3e1a792faa7d9ba84a2cf5d4aaf8da77b9adf6fe1ae83e4900f8312df3bf022e5efbf662a2             2122 Packages.gz
+ 9aea4c3780c3e04961a7e8b79a47e204a553d6a86c0a7634b6d726b2238252aff769fad7a99cbafec301cef1e631862fa1bdd23316b2a3e44baa031c6d9d28e9             2312 Packages.bz2
+ 498ef2e22fa75db9bb2abee1109d6c78594b45172cf07a37a9cacde5b344ae0ab7414da0da22d51f8de2ee4f09f548bf48834ae27a405834441d3f42b9b5c557             2092 Packages.xz
